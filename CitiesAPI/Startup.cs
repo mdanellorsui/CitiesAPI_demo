@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc.Formatters;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace EmailAPI
+namespace CitiesAPI
 {
     public class Startup
     {

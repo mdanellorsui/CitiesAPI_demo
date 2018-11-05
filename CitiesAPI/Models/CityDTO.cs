@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace EmailAPI.Models
+namespace CitiesAPI.Models
 {
     public class CityDto
     {

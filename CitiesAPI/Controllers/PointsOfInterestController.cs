@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace EmailAPI.Controllers
+namespace CitiesAPI.Controllers
 {
     [Route("api/cities")]
     public class PointsOfInterestController : Controller
@@ -35,6 +35,13 @@ namespace EmailAPI.Controllers
                 return NotFound();
             }
             return Ok(pointOfInterest);
+        }
+
+        [HttpPost("{cityId}/pointsofinterest")]
+        public IActionResult CreateOintOfINterest(int cityId, 
+            [FromBody] PointOfInterestForCreationDto pointOfInterest)
+        {
+
         }
     }
 }

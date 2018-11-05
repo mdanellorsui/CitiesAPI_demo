@@ -1,10 +1,10 @@
-﻿using EmailAPI.Models;
+﻿using CitiesAPI.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace EmailAPI
+namespace CitiesAPI
 {
     public class CitiesDataStore
     {
