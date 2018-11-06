@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CityInfo.API.Models
+namespace CitiesAPI.Models
 {
     public class PointOfInterestForUpdateDto
     {
